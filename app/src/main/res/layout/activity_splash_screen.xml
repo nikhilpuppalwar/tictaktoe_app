@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_splash"
+    android:padding="13dp"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/txttick"
+android:text="TIC TAC TOE"
+android:textSize="50sp"
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+    android:shadowColor="#0D47A1"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="3" />
+
+<TextView
+android:id="@+id/txtnikh"
+android:layout_width="wrap_content"
+android:gravity="bottom"
+android:layout_marginTop="150dp"
+android:layout_height="wrap_content"
+android:text="Creator : Nikhil Puppalwar"
+android:textSize="30sp"
+android:textStyle="bold"
+android:textColor="#90CAF9"
+    android:shadowColor="#0D47A1"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="3" />
+    </LinearLayout>

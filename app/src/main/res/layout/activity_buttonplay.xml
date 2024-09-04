@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_play_main"
+    tools:context=".buttonplay">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="320dp"
+    android:layout_height="400dp"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="25dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/bg_play_2">
+
+
+    <EditText
+        android:id="@+id/edtfirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:inputType="text"
+        android:hint="Enter the first player name ('X')"
+        android:backgroundTint="#FFF9C4"
+        android:textColorHint="#5D5050"
+        android:background="@drawable/button"
+    android:textColor="#37474F"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp"
+    />
+
+    <EditText
+        android:id="@+id/edtsec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:background="@drawable/button"
+        android:inputType="text"
+        android:textColorHint="#5D5050"
+        android:hint="Enter the second player name ('O')"
+        android:backgroundTint="#FFF9C4"
+    android:textColor="#37474F"
+    android:padding="12dp"
+    android:layout_marginBottom="30dp"
+         />
+
+    <TextView
+        android:id="@+id/txtstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:text="Click TO play"
+        android:textColor="@color/white"  />
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:text="Play"
+        android:backgroundTint="#FF7043"
+    android:textColor="#FFFFFF"
+    android:padding="12dp" />
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>
